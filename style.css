@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'pappins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/master\ 01.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-sizing: 0 4px 20px rgba(255 ,255 ,255, 0.1);
+    backdrop-filter: blur(5px);
+}
+.card_img{
+    width: 140px;
+    border-radius: 50%;
+}
+.card h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 14px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+.card .links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+.card .links img:hover{
+    background:#ffd700;}
+.btn{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    background: #ffffff;
+    color: #000000;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 10px;
+}
+/*.phone-number {
+    /* الأسلوب العادي
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    /* تأثير hover 
+    transition: all 0.3s ease-in-out;
+}
+.phone-number:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}*/
+table {
+    border-collapse: collapse;
+    /*border: 1px solid #ddd;*/
+  }
+  
+  td {
+    padding: 5px;
+    /*vertical-align: top;*/
+  }
+  
+ .ss  {
+    width: 140px;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    margin: auto;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(0deg);
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #fdf8f8;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  img:hover {
+    opacity: 1;
+    transform: rotate(10deg);
+  }
+  
+  p:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+
+
+
+
+

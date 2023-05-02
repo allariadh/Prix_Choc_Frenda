@@ -53,9 +53,9 @@
     font-weight: 500;
     background: #ffffff;
     color: #000000;
-    padding: 10px 30px;
+    padding: 5px 15px;
     border-radius: 30px;
-    margin: 30px 10px;
+    margin: 15px 5px;
 }
 /*.phone-number {
     /* الأسلوب العادي
@@ -96,7 +96,7 @@ table {
   }
   
   p {
-    font-size: 1.2em;
+    font-size: 1.7em;
     color: #fdf8f8;
     transition: all 0.3s ease-in-out;
   }
